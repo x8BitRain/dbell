@@ -1,0 +1,35 @@
+{
+  "name": "dbell",
+  "version": "1.0",
+  "description": "My links through npm",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dbell": "src/links.js"
+  },
+  "scripts": {
+    "start": "node src/links.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x8BitRain/dbell.git"
+  },
+  "keywords": [
+    "business",
+    "card",
+    "links",
+    "dbell",
+    "x8BitRain"
+  ],
+  "author": "x8BitRain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x8BitRain/dbell/issues"
+  },
+  "homepage": "https://github.com/x8BitRain/dbell",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "gradient-string": "^2.0.1"
+  }
+}
